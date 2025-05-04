@@ -12,7 +12,7 @@
       "version": "App Version: {{versionName}}",
       "platform": "Plattform:",
       "reload": "Neu laden",
-      "slogan": "Datums-Countdown: Wissen, wie viele Tage noch bis zu einem bestimmten Datum verbleiben.",
+      "slogan": "Wichtige Tage immer im Blick: Wissen, wie viele Tage seit einem bestimmten Datum vergangen sind oder noch verbleiben.",
       "link": {
         "landing": "Projekt Webseite",
         "github": "Projekt auf Github",
