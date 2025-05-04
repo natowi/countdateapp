@@ -26,24 +26,24 @@
       }
     },
     "add": {
-      "title": "Zähldatum hinzufügen",
+      "title": "Datum hinzufügen",
       "add": "Hinzufügen",
       "eventName": {
         "label": "Ereignisname",
         "placeholder": "Ereignisname hier eingeben"
       },
-      "tips": "Wählen Sie ein Datum vor dem heutigen Tag, um einen Vorwärtszähler hinzuzufügen. Wählen Sie ein Datum nach dem heutigen Tag, um einen Rückwärtszähler hinzuzufügen. Eine Beschreibung kann nach dem Hinzufügen des Datums hinzugefügt werden.",
+      "tips": "Wählen Sie ein Datum, das vor dem heutigen Tag liegt, um einen Hochzähler hinzuzufügen. Wählen Sie ein Datum nach dem heutigen Tag, um einen Runterzähler hinzuzufügen. Eine Beschreibung kann nach dem Hinzufügen des Datums hinzugefügt werden.",
       "toast": "Hinzugefügt!",
-      "extend": "Wenn Sie ein Datum hinzufügen möchten, das lange zurückliegt oder lange in der Zukunft liegt, aktivieren Sie bitte in den Einstellungen den Modus 'Datumsverlängerung'."
+      "extend": "Wenn Sie ein Datum hinzufügen möchten, das lange zurückliegt oder lange in der Zukunft liegt, aktivieren Sie bitte in den Einstellungen den Modus 'Datumserweiterung'."
     },
     "edit": {
-      "title": "Zähldatum bearbeiten",
+      "title": "Datum bearbeiten",
       "description": "Klicken Sie zum Bearbeiten auf den Titel oder das Datum",
-      "noData": "Kein Zähldatum vorhanden"
+      "noData": "Kein Datum vorhanden"
     },
     "home": {
-      "title": "Zähldatum",
-      "countdown": "Herunterzählen",
+      "title": "Countdate",
+      "countdown": "Runterzählen",
       "countup": "Hochzählen",
       "daysView": "Tage",
       "weeksView": "Wochen",
@@ -54,7 +54,7 @@
       "general": {
         "title": "Allgemein",
         "toggleDevMode": "Entwicklermodus",
-        "testLocalNotification": "Lokale Benachrictigungen testen",
+        "testLocalNotification": "Lokale Benachrichtigungen testen",
         "reviewTour": "Einführung wiederholen",
         "about": "Über Countdate",
         "toggleExtendMode": "Datumserweiterungsmodus umschalten (den Bereich der Datumsauswahl erweitern)",
@@ -105,9 +105,9 @@
     "cards": {
       "noData": "Keine Daten",
       "toCountup": "Zum Hochzählen",
-      "toCountdown": "Zum Herunterzählen",
-      "addCountdate": "Zähldatum hinzufügen",
-      "addCountdate!": "Zähldatum hinzufügen!",
+      "toCountdown": "Zum Runterzählen",
+      "addCountdate": "Datum hinzufügen",
+      "addCountdate!": "Datum hinzufügen!",
       "edit": "Bearbeiten",
       "settings": "Einstellungen",
       "checkData": "Daten prüfen",
@@ -127,9 +127,9 @@
     },
     "tour": {
       "title": "Countdate Einführung",
-      "step_1": "Wie man ein neues Ereignis hinzufügt: Ein neues Zähldatum hinzufügen",
+      "step_1": "Wie man ein neues Ereignis hinzufügt: Ein neues Datum hinzufügen",
       "step_2": "Name des Ereignisses eingeben",
-      "step_3": "Wählen Sie das Datum der Veranstaltung (entweder vor oder nach dem heutigen Tag)",
+      "step_3": "Wählen Sie das Datum des Ereignisses (entweder vor oder nach dem heutigen Tag)",
       "step_4": "Hinzufügen klicken",
       "step_5": "Wie man Ereignisse bearbeitet: Klicken Sie auf die Schaltfläche Bearbeiten",
       "step_6": "Klicken Sie zum Bearbeiten auf den Titel oder das Datum",
