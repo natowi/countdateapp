@@ -32,9 +32,9 @@
         "label": "Ereignisname",
         "placeholder": "Ereignisname hier eingeben"
       },
-      "tips": "Wählen Sie ein Datum, das vor dem heutigen Tag liegt, um einen Hochzähler hinzuzufügen. Wählen Sie ein Datum nach dem heutigen Tag, um einen Runterzähler hinzuzufügen. Eine Beschreibung kann nach dem Hinzufügen des Datums hinzugefügt werden.",
+      "tips": "Wählen Sie ein Datum, das vor dem heutigen Tag liegt, um zu zählen, wieviel Zeit seit dem vergangen ist. Wählen Sie ein Datum nach dem heutigen Tag, um zu zählen, wieviel Zeit bis dahin verbleibt. Eine Beschreibung kann nach dem Hinzufügen des Datums hinzugefügt werden.",
       "toast": "Hinzugefügt!",
-      "extend": "Wenn Sie ein Datum hinzufügen möchten, das lange zurückliegt oder lange in der Zukunft liegt, aktivieren Sie bitte in den Einstellungen den Modus 'Datumserweiterung'."
+      "extend": "Wenn Sie ein Datum hinzufügen möchten, das länger zurückliegt oder weiter in der Zukunft liegt, aktivieren Sie bitte in den Einstellungen den Modus 'Zeitspanne erweitern'."
     },
     "edit": {
       "title": "Datum bearbeiten",
@@ -43,8 +43,8 @@
     },
     "home": {
       "title": "Countdate",
-      "countdown": "Runterzählen",
-      "countup": "Hochzählen",
+      "countdown": "verbleibend",
+      "countup": "vergangen",
       "daysView": "Tage",
       "weeksView": "Wochen",
       "monthsView": "Monate"
@@ -57,14 +57,14 @@
         "testLocalNotification": "Lokale Benachrichtigungen testen",
         "reviewTour": "Einführung wiederholen",
         "about": "Über Countdate",
-        "toggleExtendMode": "Datumserweiterungsmodus umschalten (den Bereich der Datumsauswahl erweitern)",
-        "toggleRelativeMode": "Umschalten des relativen Zeitmodus (30 Tage pro Monat)",
-        "backup": "Sicherung"
+        "toggleExtendMode": "Zeitspanne erweitern (Bereich der Datumsauswahl)",
+        "toggleRelativeMode": "Relativen Zeitmodus (30 Tage pro Monat)",
+        "backup": "Backup"
       },
       "theme": {
         "title": "Thema",
-        "toggleDarkMode": "Dunkelmodus umschalten",
-        "followSystem": "Dunkelmodus des Systems übernehmen"
+        "toggleDarkMode": "Dunklen Modus",
+        "followSystem": "Dunklen Modus des Systems übernehmen"
       }
     },
     "share": {
@@ -104,8 +104,8 @@
     },
     "cards": {
       "noData": "Keine Daten",
-      "toCountup": "Zum Hochzählen",
-      "toCountdown": "Zum Runterzählen",
+      "toCountup": "vergangen",
+      "toCountdown": "verbleibend",
       "addCountdate": "Datum hinzufügen",
       "addCountdate!": "Datum hinzufügen!",
       "edit": "Bearbeiten",
@@ -127,16 +127,16 @@
     },
     "tour": {
       "title": "Countdate Einführung",
-      "step_1": "Wie man ein neues Ereignis hinzufügt: Ein neues Datum hinzufügen",
+      "step_1": "Ein Datumsereignis kann über den 'Plus'-Button hinzugefügt werden",
       "step_2": "Name des Ereignisses eingeben",
-      "step_3": "Wählen Sie das Datum des Ereignisses (entweder vor oder nach dem heutigen Tag)",
-      "step_4": "Hinzufügen klicken",
-      "step_5": "Wie man Ereignisse bearbeitet: Klicken Sie auf die Schaltfläche Bearbeiten",
+      "step_3": "Wählen Sie das Datum des Ereignisses",
+      "step_4": "Auf 'Hinzufügen' klicken",
+      "step_5": "Zum Bearbeiten eines Ereignisses klicken Sie auf die Schaltfläche 'Bearbeiten'",
       "step_6": "Klicken Sie zum Bearbeiten auf den Titel oder das Datum",
-      "step_7": "Klicken Sie auf diese Schaltfläche, um das Ereignis zu löschen",
-      "step_8": "Drücken Sie diese Taste und ziehen Sie das Ereignis, um es neu zu ordnen",
-      "can_review": "Sie können die Seite 'Einstellungen' aufrufen, um die Einführung zu wiederholen",
-      "learn_more": "Mehr über die Verwendung erfahren"
+      "step_7": "Klicken Sie auf die 'Löschen' Schaltfläche, um das Ereignis zu entfernen",
+      "step_8": "Klicken Sie das 'Verschieben' Taste und ziehen Sie das Ereignis, um es neu zu ordnen",
+      "can_review": "Diese Einführung können Sie jederzeit unter 'Einstellungen' aufrufen und wiederholen",
+      "learn_more": "Mehr über die App erfahren"
     },
     "editor": {
       "description": "Beschreibung",
