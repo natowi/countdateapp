@@ -104,8 +104,8 @@
     },
     "cards": {
       "noData": "Keine Daten",
-      "toCountup": "vergangen",
-      "toCountdown": "verbleibend",
+      "toCountup": "Vergangen Ereignisse",
+      "toCountdown": "Verbleibenden Ereignisse",
       "addCountdate": "Datum hinzufügen",
       "addCountdate!": "Datum hinzufügen!",
       "edit": "Bearbeiten",
